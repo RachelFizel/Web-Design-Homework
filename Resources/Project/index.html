@@ -19,6 +19,8 @@
         </div>
 
         
+        
+
         <div class="container">
 
             <div class="row">
@@ -29,45 +31,53 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-8 border">
                     <a target="_blank" href="../assets/images/Fig1.png">
                     <img src="../assets/images/Fig1.png" alt="Latitude vs Temperature" style="width:100%;height:auto;">
                     <p>Here we can display some more text!</p>
                     </a>
                     <p><em>City Latitude vs. Max Temperature</em></p>
                 </div>
-                <div class="col-md-3">
-                    <a target="_blank" href="latitude_vs_max_temp.html">
-                    <img src="../assets/images/Fig1.png" class = "img-thumbnail" alt="Latitude vs Temperature" style="width:100%;height:auto;">
-                    </a>
-                    <p><em>City Latitude vs. Max Temperature</em></p>
-                </div>
 
-                <div class="col-md-3">
-                    <a target="_blank" href="latitude_vs_humidity.html">
-                    <img src="../assets/images/Fig2.png" alt="Latitude vs Humidity" style="width:100%;height:auto;">
-                    </a>
-                    <p><em>City Latitude vs. Humidity</em></p>
+                <div class="col-md-4 border">
+                    <div class="container">
+                        <div class="row">
+                            <h3>Title</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a target="_blank" href="latitude_vs_max_temp.html">
+                                <img src="../assets/images/Fig1.png" class = "img-thumbnail" alt="Latitude vs Temperature" style="width:100%;height:auto;">
+                                </a>
+                                <p><em>City Latitude vs. Max Temperature</em></p>
+                            </div>
+                            <div class="col-md-6">
+                                <a target="_blank" href="latitude_vs_humidity.html">
+                                <img src="../assets/images/Fig2.png" alt="Latitude vs Humidity" style="width:100%;height:auto;">
+                                </a>
+                                <p><em>City Latitude vs. Humidity</em></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a target="_blank" href="latitude_vs_cloudiness.html">
+                                <img src="../assets/images/Fig3.png" alt="Latitude vs Cloudiness" style="width:100%;height:auto;">
+                                </a>
+                                <p><em>City Latitude vs. Cloudiness</em></p>
+                            </div>
+            
+                            <div class="col-md-6">
+                                <a target="_blank" href="latitude_vs_wind_speed.html">
+                                <img src="../assets/images/Fig4.png" alt="Latitude vs Wind Speed" style="width:100%;height:auto;">
+                                </a>
+                                <p><em>City Latitude vs. Wind Speed</em></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <hr>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <a target="_blank" href="latitude_vs_cloudiness.html">
-                    <img src="../assets/images/Fig3.png" alt="Latitude vs Cloudiness" style="width:100%;height:auto;">
-                    </a>
-                    <p><em>City Latitude vs. Cloudiness</em></p>
-                </div>
-
-                <div class="col-md-3">
-                    <a target="_blank" href="latitude_vs_wind_speed.html">
-                    <img src="../assets/images/Fig4.png" alt="Latitude vs Wind Speed" style="width:100%;height:auto;">
-                    </a>
-                    <p><em>City Latitude vs. Wind Speed</em></p>
-                </div>
-            </div>
         </div>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -78,7 +88,7 @@
 
       
       <script>
-        $(function(){
+        $( document ).ready(function() {
           $("#nav-placeholder").load("nav_bar.html");
         });
       </script>
