@@ -1,11 +1,23 @@
-h2 {color:teal;}
+h2 {
+    color:teal;
+    text-align: center;
+}
 
 h3 {color:teal;}
 
-h4 {color:rgb(17, 57, 109);}
+h4 {
+    color:rgb(17, 57, 109);
+    text-align: center;
+}
 
-h4 {text-align: center;}
+.compare-label {
+    text-align: center; 
+    color:rgb(19, 12, 68); 
+    width: 100%;
+    cursor: pointer;
+}
   
 .purple {color: purple;}
   
 #red {color: red;}
+
